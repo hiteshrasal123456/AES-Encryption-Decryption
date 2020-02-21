@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A144601923FD060C0015615C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A144601823FD060C0015615C /* AppDelegate.swift */; };
+		A144601B23FD060C0015615C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A144601A23FD060C0015615C /* SceneDelegate.swift */; };
+		A144601D23FD060C0015615C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A144601C23FD060C0015615C /* ViewController.swift */; };
+		A144602023FD060C0015615C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A144601E23FD060C0015615C /* Main.storyboard */; };
+		A144602223FD060C0015615C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A144602123FD060C0015615C /* Assets.xcassets */; };
+		A144602523FD060C0015615C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A144602323FD060C0015615C /* LaunchScreen.storyboard */; };
+		A144603023FD060C0015615C /* AESEncryptionTutoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A144602F23FD060C0015615C /* AESEncryptionTutoTests.swift */; };
+		A144603B23FD060C0015615C /* AESEncryptionTutoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A144603A23FD060C0015615C /* AESEncryptionTutoUITests.swift */; };
+		A144604923FD07640015615C /* AESEncryptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A144604823FD07640015615C /* AESEncryptionManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A144602C23FD060C0015615C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A144600D23FD060C0015615C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A144601423FD060C0015615C;
+			remoteInfo = AESEncryptionTuto;
+		};
+		A144603723FD060C0015615C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A144600D23FD060C0015615C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A144601423FD060C0015615C;
+			remoteInfo = AESEncryptionTuto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A144601523FD060C0015615C /* AESEncryptionTuto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AESEncryptionTuto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A144601823FD060C0015615C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A144601A23FD060C0015615C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A144601C23FD060C0015615C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A144601F23FD060C0015615C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A144602123FD060C0015615C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A144602423FD060C0015615C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A144602623FD060C0015615C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A144602B23FD060C0015615C /* AESEncryptionTutoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AESEncryptionTutoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A144602F23FD060C0015615C /* AESEncryptionTutoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESEncryptionTutoTests.swift; sourceTree = "<group>"; };
+		A144603123FD060C0015615C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A144603623FD060C0015615C /* AESEncryptionTutoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AESEncryptionTutoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A144603A23FD060C0015615C /* AESEncryptionTutoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESEncryptionTutoUITests.swift; sourceTree = "<group>"; };
+		A144603C23FD060C0015615C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A144604823FD07640015615C /* AESEncryptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESEncryptionManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A144601223FD060C0015615C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A144602823FD060C0015615C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A144603323FD060C0015615C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A144600C23FD060C0015615C = {
+			isa = PBXGroup;
+			children = (
+				A144601723FD060C0015615C /* AESEncryptionTuto */,
+				A144602E23FD060C0015615C /* AESEncryptionTutoTests */,
+				A144603923FD060C0015615C /* AESEncryptionTutoUITests */,
+				A144601623FD060C0015615C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A144601623FD060C0015615C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A144601523FD060C0015615C /* AESEncryptionTuto.app */,
+				A144602B23FD060C0015615C /* AESEncryptionTutoTests.xctest */,
+				A144603623FD060C0015615C /* AESEncryptionTutoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A144601723FD060C0015615C /* AESEncryptionTuto */ = {
+			isa = PBXGroup;
+			children = (
+				A144604823FD07640015615C /* AESEncryptionManager.swift */,
+				A144601823FD060C0015615C /* AppDelegate.swift */,
+				A144601A23FD060C0015615C /* SceneDelegate.swift */,
+				A144601C23FD060C0015615C /* ViewController.swift */,
+				A144601E23FD060C0015615C /* Main.storyboard */,
+				A144602123FD060C0015615C /* Assets.xcassets */,
+				A144602323FD060C0015615C /* LaunchScreen.storyboard */,
+				A144602623FD060C0015615C /* Info.plist */,
+			);
+			path = AESEncryptionTuto;
+			sourceTree = "<group>";
+		};
+		A144602E23FD060C0015615C /* AESEncryptionTutoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A144602F23FD060C0015615C /* AESEncryptionTutoTests.swift */,
+				A144603123FD060C0015615C /* Info.plist */,
+			);
+			path = AESEncryptionTutoTests;
+			sourceTree = "<group>";
+		};
+		A144603923FD060C0015615C /* AESEncryptionTutoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A144603A23FD060C0015615C /* AESEncryptionTutoUITests.swift */,
+				A144603C23FD060C0015615C /* Info.plist */,
+			);
+			path = AESEncryptionTutoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A144601423FD060C0015615C /* AESEncryptionTuto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A144603F23FD060C0015615C /* Build configuration list for PBXNativeTarget "AESEncryptionTuto" */;
+			buildPhases = (
+				A144601123FD060C0015615C /* Sources */,
+				A144601223FD060C0015615C /* Frameworks */,
+				A144601323FD060C0015615C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AESEncryptionTuto;
+			productName = AESEncryptionTuto;
+			productReference = A144601523FD060C0015615C /* AESEncryptionTuto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A144602A23FD060C0015615C /* AESEncryptionTutoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A144604223FD060C0015615C /* Build configuration list for PBXNativeTarget "AESEncryptionTutoTests" */;
+			buildPhases = (
+				A144602723FD060C0015615C /* Sources */,
+				A144602823FD060C0015615C /* Frameworks */,
+				A144602923FD060C0015615C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A144602D23FD060C0015615C /* PBXTargetDependency */,
+			);
+			name = AESEncryptionTutoTests;
+			productName = AESEncryptionTutoTests;
+			productReference = A144602B23FD060C0015615C /* AESEncryptionTutoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A144603523FD060C0015615C /* AESEncryptionTutoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A144604523FD060C0015615C /* Build configuration list for PBXNativeTarget "AESEncryptionTutoUITests" */;
+			buildPhases = (
+				A144603223FD060C0015615C /* Sources */,
+				A144603323FD060C0015615C /* Frameworks */,
+				A144603423FD060C0015615C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A144603823FD060C0015615C /* PBXTargetDependency */,
+			);
+			name = AESEncryptionTutoUITests;
+			productName = AESEncryptionTutoUITests;
+			productReference = A144603623FD060C0015615C /* AESEncryptionTutoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A144600D23FD060C0015615C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Tejora;
+				TargetAttributes = {
+					A144601423FD060C0015615C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A144602A23FD060C0015615C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A144601423FD060C0015615C;
+					};
+					A144603523FD060C0015615C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A144601423FD060C0015615C;
+					};
+				};
+			};
+			buildConfigurationList = A144601023FD060C0015615C /* Build configuration list for PBXProject "AESEncryptionTuto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A144600C23FD060C0015615C;
+			productRefGroup = A144601623FD060C0015615C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A144601423FD060C0015615C /* AESEncryptionTuto */,
+				A144602A23FD060C0015615C /* AESEncryptionTutoTests */,
+				A144603523FD060C0015615C /* AESEncryptionTutoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A144601323FD060C0015615C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A144602523FD060C0015615C /* LaunchScreen.storyboard in Resources */,
+				A144602223FD060C0015615C /* Assets.xcassets in Resources */,
+				A144602023FD060C0015615C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A144602923FD060C0015615C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A144603423FD060C0015615C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A144601123FD060C0015615C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A144604923FD07640015615C /* AESEncryptionManager.swift in Sources */,
+				A144601D23FD060C0015615C /* ViewController.swift in Sources */,
+				A144601923FD060C0015615C /* AppDelegate.swift in Sources */,
+				A144601B23FD060C0015615C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A144602723FD060C0015615C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A144603023FD060C0015615C /* AESEncryptionTutoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A144603223FD060C0015615C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A144603B23FD060C0015615C /* AESEncryptionTutoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A144602D23FD060C0015615C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A144601423FD060C0015615C /* AESEncryptionTuto */;
+			targetProxy = A144602C23FD060C0015615C /* PBXContainerItemProxy */;
+		};
+		A144603823FD060C0015615C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A144601423FD060C0015615C /* AESEncryptionTuto */;
+			targetProxy = A144603723FD060C0015615C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A144601E23FD060C0015615C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A144601F23FD060C0015615C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A144602323FD060C0015615C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A144602423FD060C0015615C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A144603D23FD060C0015615C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A144603E23FD060C0015615C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A144604023FD060C0015615C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7V98XD92T;
+				INFOPLIST_FILE = AESEncryptionTuto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tejora.AESEncryptionTuto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A144604123FD060C0015615C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7V98XD92T;
+				INFOPLIST_FILE = AESEncryptionTuto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tejora.AESEncryptionTuto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A144604323FD060C0015615C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7V98XD92T;
+				INFOPLIST_FILE = AESEncryptionTutoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tejora.AESEncryptionTutoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AESEncryptionTuto.app/AESEncryptionTuto";
+			};
+			name = Debug;
+		};
+		A144604423FD060C0015615C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7V98XD92T;
+				INFOPLIST_FILE = AESEncryptionTutoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tejora.AESEncryptionTutoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AESEncryptionTuto.app/AESEncryptionTuto";
+			};
+			name = Release;
+		};
+		A144604623FD060C0015615C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7V98XD92T;
+				INFOPLIST_FILE = AESEncryptionTutoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tejora.AESEncryptionTutoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AESEncryptionTuto;
+			};
+			name = Debug;
+		};
+		A144604723FD060C0015615C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7V98XD92T;
+				INFOPLIST_FILE = AESEncryptionTutoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tejora.AESEncryptionTutoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AESEncryptionTuto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A144601023FD060C0015615C /* Build configuration list for PBXProject "AESEncryptionTuto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A144603D23FD060C0015615C /* Debug */,
+				A144603E23FD060C0015615C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A144603F23FD060C0015615C /* Build configuration list for PBXNativeTarget "AESEncryptionTuto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A144604023FD060C0015615C /* Debug */,
+				A144604123FD060C0015615C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A144604223FD060C0015615C /* Build configuration list for PBXNativeTarget "AESEncryptionTutoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A144604323FD060C0015615C /* Debug */,
+				A144604423FD060C0015615C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A144604523FD060C0015615C /* Build configuration list for PBXNativeTarget "AESEncryptionTutoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A144604623FD060C0015615C /* Debug */,
+				A144604723FD060C0015615C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A144600D23FD060C0015615C /* Project object */;
+}
